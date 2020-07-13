@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 
+import getThemeColor from "../../utils/getThemeColor"
 import Avatar from "../Avatar"
 import * as S from "./styled"
 
@@ -30,7 +31,7 @@ const Profile = () => {
       <S.ProfileLink
         cover
         direction="left"
-        bg="#16202c"
+        bg={getThemeColor()}
         duration={0.6}
         to="/"
       >
