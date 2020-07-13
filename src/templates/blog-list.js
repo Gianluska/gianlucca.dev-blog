@@ -34,6 +34,7 @@ const BlogList = props => {
             timeToRead={timeToRead}
             title={title}
             description={description}
+            key={slug}
           />
         )
       )}
