@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `Gianlucca Claudino`,
     position: `Frontend Developer`,
-    description: `A blog about frontend development and other cool stuff.`,
+    description: `Um blog sobre desenvolvimento front-end e mais o que der na telha :p`,
     author: `Gianlucca Portela Claudino`,
     siteUrl: `https://gianluccaclaudino.netlify.app`
   },
@@ -21,6 +21,17 @@ module.exports = {
         name: `uploads`,
         path: `${__dirname}/static/assets/img`,
       },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `roboto`,
+          `amatic sc\:400,700`,
+          `lora sc\:400,500`
+        ],
+        display: 'swap'
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
