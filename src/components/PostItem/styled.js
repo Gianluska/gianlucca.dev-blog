@@ -1,6 +1,8 @@
 import styled from "styled-components"
 import media from "styled-media-query"
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+import AniLink from "gatsby-plugin-transition-link/AniLink"
+import { CalendarAlt } from "@styled-icons/boxicons-regular/CalendarAlt"
+import { WatchLater } from "@styled-icons/material-outlined/WatchLater"
 
 export const PostItemLink = styled(AniLink)`
   color: var(--texts);
@@ -17,7 +19,6 @@ export const PostItemLink = styled(AniLink)`
 
 export const PostItemWrapper = styled.section`
   align-items: center;
-  border-bottom: 1px solid var(--borders);
   display: flex;
   padding: 2rem 3rem;
   width: 100%;
@@ -37,16 +38,18 @@ export const PostItemWrapper = styled.section`
 `
 
 export const PostItemTag = styled.div`
+  font-family: "Lora", serif;
   align-items: center;
-  background: ${props => props.background ? props.background : 'var(--highlight)'};
+  background: ${props =>
+    props.background ? props.background : "var(--highlight)"};
   border-radius: 50%;
-  color: var(--white);
+  color: var(--black);
   display: flex;
-  font-size: 1.3rem;
+  font-size: 32px;
   font-weight: 700;
   justify-content: center;
-  min-height: 90px;
-  min-width: 90px;
+  min-height: 120px;
+  min-width: 120px;
   text-transform: uppercase;
 
   body#grid & {
@@ -80,10 +83,22 @@ export const PostItemInfo = styled.div`
 
 export const PostItemDate = styled.time`
   font-size: 0.9rem;
+  display: flex;
+`
+
+export const CalendarIcon = styled(CalendarAlt)`
+  width: 16px;
+  margin-right: 4px;
+`
+
+export const TimerIcon = styled(WatchLater)`
+  width: 16px;
+  margin: 0px 4px 0px 12px;
 `
 
 export const PostItemTitle = styled.h1`
-  font-size: 1.6rem;
+  font-family: "Lora", serif;
+  font-size: 32px;
   font-weight: 700;
   margin: 0.2rem 0 0.5rem;
 
@@ -97,4 +112,5 @@ export const PostItemDescription = styled.p`
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 1.2;
+  margin-top: 16px;
 `

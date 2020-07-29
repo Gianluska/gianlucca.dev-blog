@@ -3,7 +3,7 @@ const getThemeColor = () => {
 
   // return theme === 'light' ? "#fff" : "16202c"
   if (theme === 'light') return '#fff'
-  if (theme === 'dark') return '#16202c'
+  if (theme === 'dark') return '#1b1b1b'
 }
 
 export default getThemeColor

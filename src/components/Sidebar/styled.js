@@ -12,7 +12,7 @@ export const SidebarWrapper = styled.aside`
   padding: 2rem;
   text-align: center;
   width: 20rem;
-
+  justify-content: space-between;
   
   ${media.lessThan("large")`
     align-items: flex-start;
@@ -20,4 +20,11 @@ export const SidebarWrapper = styled.aside`
     padding: 1rem 2rem;
     width: 100%;
   `}
+`
+
+export const ProfileWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `

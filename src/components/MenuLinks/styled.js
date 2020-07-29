@@ -1,7 +1,6 @@
 import styled from "styled-components"
 import media from "styled-media-query"
-import AniLink from "gatsby-plugin-transition-link/AniLink";
-
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const MenuLinksWrapper = styled.nav`
   ${media.lessThan("large")`
@@ -10,7 +9,8 @@ export const MenuLinksWrapper = styled.nav`
 `
 
 export const MenuLinksList = styled.ul`
-  font-size: 1.2rem;
+  font-family: "Lora", serif;
+  font-size: 22px;
   font-weight: 300;
 `
 

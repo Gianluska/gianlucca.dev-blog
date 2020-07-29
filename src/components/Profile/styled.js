@@ -25,8 +25,9 @@ export const ProfileLink = styled(AniLink)`
 `
 
 export const ProfileAuthor = styled.h1`
-  font-size: 1.6rem;
+  font-size: 42px;
   margin: 0.5rem auto 1.5rem;
+  font-family: 'Amatic SC', cursive;
 
   ${media.lessThan("large")`
     font-size: 1.2rem;
@@ -36,7 +37,7 @@ export const ProfileAuthor = styled.h1`
 
 export const ProfilePosition = styled.small`
   display: block;
-  font-size: 1.2rem;
+  font-size: 32px;
   font-weight: 300;
 
   ${media.lessThan("large")`
