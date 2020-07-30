@@ -14,7 +14,7 @@ export const SocialLinksList = styled.ul`
   align-items: center;
   display: flex;
   justify-content: space-around;
-  list-style: none;
+  list-style: none !important;
 `
 
 export const SocialLinksItem = styled.li``

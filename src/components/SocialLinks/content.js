@@ -4,20 +4,20 @@ const links = [
     url: 'https://github.com/Gianluska',
   },
   {
-    label: 'Twitter',
-    url: 'https://twitter.com/willianjusten',
+    label: 'Linkedin',
+    url: 'https://www.linkedin.com/in/gianlucca-claudino-756049186/',
   },
-  {
-    label: 'Youtube',
-    url: 'https://www.youtube.com/channel/UCPA4JfjAxqAD68RP0OV_wWw',
-  },
+  // {
+  //   label: 'Youtube',
+  //   url: 'https://www.youtube.com/channel/UCPA4JfjAxqAD68RP0OV_wWw',
+  // },
   {
     label: 'Instagram',
     url: 'https://www.instagram.com/gianluska_',
   },
   {
-    label: 'Unsplash',
-    url: 'https://unsplash.com/@willianjusten',
+    label: 'Dribbble',
+    url: 'https://dribbble.com/Gianluska',
   },
 ]
 
