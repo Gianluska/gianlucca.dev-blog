@@ -1,5 +1,5 @@
 ---
-title: Extensões super hiper legais para VSCode.
+title: Extensões super hiper legais para VSCode
 description: Aumentando sua produtividade e qualidade de código com extensões para VSCode.
 date: 2020-08-11 10:57:17
 thumbnail: assets/img/visual-studio-code.png
@@ -38,7 +38,7 @@ Os principais que eu poderia citar para o universo Front-end são:
 
 ![Gif mostrando o funcionamento da extensão live server, ao modificar um arquivo .html, o navegador atualiza sozinho!](assets/img/vscode-live-server-animated-demo.gif "Exemplo de Live Server")
 
-[Essa extensão](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) é mágica e facilita muito projetos "vanilla", sem nenhum framwork nem nada do tipo. O que ela faz é iniciar um servidor de desenvolvimento com reload de página automático, ou seja, ao modificar um arquivo do seu projeto a extensão já atualiza seu navegador sozinha!  Diga adeus aos infinitos F5.
+[Essa extensão](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) é mágica e facilita muito projetos "vanilla", sem nenhum framework nem nada do tipo. O que ela faz é iniciar um servidor de desenvolvimento com reload de página automático, ou seja, ao modificar um arquivo do seu projeto a extensão já atualiza seu navegador sozinha!  Diga adeus aos infinitos F5.
 
 # Produtividade
 
@@ -84,6 +84,6 @@ Essa extensão nos ajuda a alterar algum trecho de código HTML, ao modificar o 
 
 Esses pequenos problemas que as extensões resolvem fazem uma baita diferença no nosso dia a dia, seja automatizando algo repetitivo ou nos ajudando a executar uma tarefa específica. Contar com um editor de código mais inteligente nos ajuda a ser mais eficientes.
 
-E ai? Curtiram o post? Fique a vontade para expressar sua opinião na área de comentários! E caso ficou faltando alguma extensão super delicinha, compartilha com noix nos comentários! O universo agradece!
+E ai? Curtiram o post? Fique a vontade para expressar sua opinião na área de comentários! E caso ficou faltando alguma extensão maneira, compartilha com noix nos comentários! O universo agradece!
 
 Por hoje é só, aquele abraço!
