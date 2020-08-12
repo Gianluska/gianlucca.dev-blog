@@ -54,7 +54,7 @@ Essa extensão ajuda a criar alguns comentários mais amigáveis no nosso códig
 
 Cara, essa extensão é mágica, sério! Ela te permite trabalhar em conjunto num mesmo projeto simultaneamente! E o mais bacana é que você acompanha em tempo real as alterações do seu colega. <s>Agora da para acompanhar as gambiarras ao vivo.</s>
 
-### **[](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)**
+### [](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)**[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)**
 
 O que essa extensão faz é formatar seu código, podendo seguir um padrão pré definido. Ela ajuda demais em projetos com Lint, fica a dica!
 
@@ -70,20 +70,20 @@ Algumas extensões não couberam em nenhum tópico acima, mas ainda sim são sup
 
 ### **[Git Blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)**
 
-Essa extensão serve para quem desenvolve em código compartilhado entre outros devs, ao colocar o cursor em uma linha do código ela mostra qual desenvolvedor fez ou alterou aquela linha. <s>Assim fica mais fácil dar nos dedos.</s>
+Essa extensão serve para quem desenvolve em código compartilhado com outros devs, ao colocar o cursor em uma linha do código, a extensão mostra qual desenvolvedor fez ou alterou aquela linha. <s>Assim fica mais fácil dar nos dedos.</s>
 
 ### **[Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)**
 
-O que essa extensão faz é destacar os parênteses, chaves e colchetes, deixando mais visível onde cada um se inicia e finaliza, assim evitando confusões.
+O que essa extensão faz é destacar os parênteses, chaves e colchetes, deixando mais visível onde cada um se inicia e finaliza, assim evitando confusão.
 
 ### **[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)**
 
-Essa extensão nos ajuda ao alterar algum trecho de código HTML, ao alterar o início de uma tag a extensão altera automaticamente seu fechamento, e vice-versa.
+Essa extensão nos ajuda a alterar algum trecho de código HTML, ao modificar o início de uma tag a extensão altera automaticamente seu fechamento, e vice-versa.
 
 # Conclusão
 
-E ai? Curtiram o post? Esses pequenos detalhes que as extensões resolvem fazem uma baita diferença no nosso dia a dia, seja automatizando algo repetitivo ou nos ajudando a executar uma tarefa específica.
+Esses pequenos problemas que as extensões resolvem fazem uma baita diferença no nosso dia a dia, seja automatizando algo repetitivo ou nos ajudando a executar uma tarefa específica. Contar com um editor de código mais inteligente nos ajuda a ser mais eficientes.
 
-**Faltou citar alguma extensão super delicinha? Compartilha com noix na área de comentários, o universo agradeçe!**
+E ai? Curtiram o post? Fique a vontade para expressar sua opinião na área de comentários! E caso ficou faltando alguma extensão super delicinha, compartilha com noix nos comentários! O universo agradece!
 
 Por hoje é só, aquele abraço!
