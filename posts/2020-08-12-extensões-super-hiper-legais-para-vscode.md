@@ -10,7 +10,7 @@ background: "#637a91"
 
 Fala gurizada, esse é meu primeiro post e já começamos com estilo, aqui vai algumas dicas hiper legais para os devs de plantão.
 
-Atualmente não podemos falar de produtividade ao codar sem citarmos editores de texto, e o VSCode não deixa duvida que é o cara certo para isso. Nativamente ele já possui algumas ferramentas que facilitam muito a vida na hora do desenvolvimento, mas existem também uma infinidade de extensões para aumentarmos ainda mais nossa produtividade.
+Atualmente não podemos falar de produtividade ao codar sem citarmos editores de código, e o VSCode não deixa duvida que é o cara certo para isso. Nativamente ele já possui algumas ferramentas que facilitam muito a vida na hora do desenvolvimento, mas existem também uma infinidade de extensões para aumentarmos ainda mais nossa produtividade.
 
 # Code Snippets
 
