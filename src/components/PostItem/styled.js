@@ -38,7 +38,7 @@ export const PostItemWrapper = styled.section`
 `
 
 export const PostItemTag = styled.div`
-  font-family: "Lora", serif;
+  font-family: 'Cardo', serif;
   align-items: center;
   background: ${props =>
     props.background ? props.background : "var(--highlight)"};
@@ -97,7 +97,7 @@ export const TimerIcon = styled(WatchLater)`
 `
 
 export const PostItemTitle = styled.h1`
-  font-family: "Lora", serif;
+  font-family: 'Cardo', serif;
   font-size: 32px;
   font-weight: 700;
   margin: 0.2rem 0 0.5rem;

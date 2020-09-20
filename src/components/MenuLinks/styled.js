@@ -9,9 +9,9 @@ export const MenuLinksWrapper = styled.nav`
 `
 
 export const MenuLinksList = styled.ul`
-  font-family: "Lora", serif;
+  font-family: 'Cardo', serif;
   font-size: 22px;
-  font-weight: 300;
+  font-weight: 400;
 `
 
 export const MenuLinksItem = styled.li`

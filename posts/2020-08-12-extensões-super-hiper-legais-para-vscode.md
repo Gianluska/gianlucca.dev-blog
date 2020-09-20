@@ -2,7 +2,7 @@
 title: Extensões super hiper legais para VSCode
 description: Aumentando sua produtividade e qualidade de código com extensões para VSCode.
 date: 2020-08-11 10:57:17
-thumbnail: assets/img/visual-studio-code.png
+thumbnail: /assets/img/visual-studio-code.png
 category: dev
 background: "#637a91"
 ---
@@ -14,7 +14,7 @@ Atualmente não podemos falar de produtividade ao codar sem citarmos editores de
 
 # Code Snippets
 
-![Um exemplo de Code Snippet onde é executado vários comandos que geram blocos de código.](assets/img/ngrepeatsnippet.gif "Exemplo de snippets.")
+![Um exemplo de Code Snippet onde é executado vários comandos que geram blocos de código.](/assets/img/ngrepeatsnippet.gif "Exemplo de snippets.")
 
 Code Snippets são "atalhos" que geram instruções e blocos de código extensos e comuns no dia a dia.
 
@@ -36,7 +36,7 @@ Os principais que eu poderia citar para o universo Front-end são:
 
 # Live Server
 
-![Gif mostrando o funcionamento da extensão live server, ao modificar um arquivo .html, o navegador atualiza sozinho!](assets/img/vscode-live-server-animated-demo.gif "Exemplo de Live Server")
+![Gif mostrando o funcionamento da extensão live server, ao modificar um arquivo .html, o navegador atualiza sozinho!](/assets/img/vscode-live-server-animated-demo.gif "Exemplo de Live Server")
 
 [Essa extensão](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) é mágica e facilita muito projetos "vanilla", sem nenhum framework nem nada do tipo. O que ela faz é iniciar um servidor de desenvolvimento com reload de página automático, ou seja, ao modificar um arquivo do seu projeto a extensão já atualiza seu navegador sozinha!  Diga adeus aos infinitos F5.
 
@@ -48,7 +48,7 @@ Essas extensões são feras quando o quesito é melhorar nossa produtividade!
 
 Essa extensão ajuda a criar alguns comentários mais amigáveis no nosso código, podemos até categorizar nossas anotações, bacana né?
 
-![Uma imagem demonstrando todas as categorias de comentarios da extensao Better Comments](assets/img/better-comments.png "Exemplo better comments")
+![Uma imagem demonstrando todas as categorias de comentarios da extensao Better Comments](/assets/img/better-comments.png "Exemplo better comments")
 
 ### **[Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)**
 
@@ -62,7 +62,7 @@ O que essa extensão faz é formatar seu código, podendo seguir um padrão pré
 
 Essa extensão faz automaticamente a compilação/transpilação de arquivos SASS/SCSS em tempo real e funciona super bem com o Live Server!
 
-![gif demonstrando o uso da extensao Live Sass Compile, onde o mesmo mostra alteraçoes sendo atualizadas em tempo real no navegador](assets/img/animatedpreview.gif "Exemplo Live Sass Compiler")
+![gif demonstrando o uso da extensao Live Sass Compile, onde o mesmo mostra alteraçoes sendo atualizadas em tempo real no navegador](/assets/img/animatedpreview.gif "Exemplo Live Sass Compiler")
 
 # Menções honrosas
 

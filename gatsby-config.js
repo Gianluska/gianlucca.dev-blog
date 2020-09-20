@@ -30,15 +30,23 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
         fonts: [
-          `roboto`,
-          `amatic sc\:400,700`,
-          `lora sc\:400,500`
+          {
+            family: `Roboto`,
+            variants: [`400`]
+          },
+          {
+            family: `Amatic SC`,
+            variants: [`400`, `700`]
+          },
+          {
+            family: `Cardo`,
+            variants: [`400`, `500`]
+          },
         ],
-        display: 'swap'
-      }
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
