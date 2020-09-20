@@ -23,6 +23,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
@@ -32,20 +39,6 @@ module.exports = {
         ],
         display: 'swap'
       }
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -85,7 +78,7 @@ module.exports = {
         apiKey: process.env.ALGOLIA_ADMIN_KEY,
         indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
         queries,
-        chunkSize: 10000,
+        chunkSize: 10000, // default: 1000
         enablePartialUpdates: true,
       },
     },
@@ -96,7 +89,7 @@ module.exports = {
         short_name: `Gianlucca Claudino`,
         start_url: `/`,
         background_color: `#16202c`,
-        theme_color: `16202c`,
+        theme_color: `#16202c`,
         display: `minimal-ui`,
         icon: `src/images/gcode-icon.png`, // This path is relative to the root of the site.
       },
