@@ -2,7 +2,7 @@ backend:
   name: github
   repo: Gianluska/My-personal-blog
   branch: master
-  site_domain: gianluccaclaudino.netlify.app/
+  site_domain: gianluccaclaudino.com.br
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
