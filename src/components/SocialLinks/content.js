@@ -5,7 +5,7 @@ const links = [
   },
   {
     label: 'Linkedin',
-    url: 'https://www.linkedin.com/in/gianlucca-claudino-756049186/',
+    url: 'https://www.linkedin.com/in/gianlucca-claudino/',
   },
   // {
   //   label: 'Youtube',
