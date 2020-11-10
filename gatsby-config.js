@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `Gianlucca Claudino`,
     position: `Frontend Developer`,
-    description: `Amante de tecnologia dês das fraldas, escrevo sobre font end e mais o que der na telha :p`,
+    description: `Apaixonado por JavaScript e entusiasta do movimento Open Source. Escrevo sobre o que me brilhar os olhos!`,
     author: `Gianlucca Portela Claudino`,
     siteUrl: `https://gianluccaclaudino.netlify.app`
   },
