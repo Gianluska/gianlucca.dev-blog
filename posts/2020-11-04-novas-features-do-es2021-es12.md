@@ -29,7 +29,7 @@ console.log(novaString);
 // "Gian é o cara do Front-End! Ele ama muito Back-End!"
 ```
 
-Perceba que apenas a primeira ocorrência da S`tring` "Back" foi substituída. Not cool, buddy >:(
+Perceba que apenas a primeira ocorrência da `String` "Back" foi substituída. Not cool, buddy >:(
 
 Agora um exemplo com `replaceAll()`:
 
@@ -40,8 +40,6 @@ const novaString = minhaString.replaceAll("Back", "Front");
 console.log(novaString); 
 // "Gian é o cara do Front-End! Ele ama muito Front-End!"
 ```
-
-Mágico demais, né?
 
 Outra dica legal é que da para concatenar o método `replaceAll()` numa `String`, assim você pode determinar na mesma linha vários padrões que deseja substituir na `String`. Mas cuidado, repense se essa solução é de fato a solução ideal, fechou? Bora pra próxima xD.
 
@@ -91,8 +89,6 @@ const objetoDePessoa = new Pessoa();
 console.log(objetoDePessoa.nome); // "Gian"
 console.log(objetoDePessoa.idade); // undefined
 ```
-
-Magia pura, bora seguir!
 
 # Operadores de Atribuição Lógica
 
