@@ -1,7 +1,7 @@
 ---
 title: Novas features do ES2021/ES12.
 description: Conhecendo as novas features da melhor linguagem de programação do mundo! xD
-date: 2020-11-04 06:08:11
+date: 2020-11-10 02:11:00
 thumbnail: assets/img/1_qryy7n9t0sypta4xmkmjvq.png
 category: js
 background: "#D6BA32"
