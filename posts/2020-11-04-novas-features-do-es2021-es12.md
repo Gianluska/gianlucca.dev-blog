@@ -105,7 +105,7 @@ console.log(x); // 2
 
 > Gian, o que diacho a linha 3 faz?
 
-Vamos lá, haha. Como x é um valor válido, ele é atribuído com o valor de y, ou seja, 2.
+Vamos lá, haha. Como `x` é um valor válido, ele é atribuído com o valor de `y`, ou seja, 2.
 
 Então a linha 3 pode ser traduzida para:
 
