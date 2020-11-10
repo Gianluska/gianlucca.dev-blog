@@ -13,15 +13,19 @@ const AboutPage = () => {
     "CSS Frameworks (Bootstrap, Materialize)",
     "Design Systems (Material Design)",
     "Responsividade | Mobile First",
-    "SEO",
-    "JavaScript (ES2020)",
+    "SEO | WPO",
+    "JavaScript",
     "TypeScript",
     "Design Patterns",
-    "ReactJS | React Native | Redux",
+    "React | React Native | Redux",
+    "GatsbyJS",
+    "NextJS",
     "Angular 2+ | Ionic | RxJS",
     "Git (Git Flow)",
     "Scrum | Kanban",
-    "TDD | Continuous Integration",
+    "TDD",
+    "Continuous Integration",
+    "GraphQL",
   ]
   const aboutMeText = `
   E aê, beleza? Me chamo Gian, tenho ${getAge() || '19'} anos, sou de Curitiba/PR e sou Desenvolvedor Front-End.
