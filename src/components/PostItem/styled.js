@@ -84,6 +84,9 @@ export const PostItemInfo = styled.div`
 export const PostItemDate = styled.time`
   font-size: 0.9rem;
   display: flex;
+  body#grid & {
+    justify-content: center;
+  }
 `
 
 export const CalendarIcon = styled(CalendarAlt)`
