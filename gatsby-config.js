@@ -38,12 +38,8 @@ module.exports = {
             variants: [`400`]
           },
           {
-            family: `Amatic SC`,
-            variants: [`400`, `700`]
-          },
-          {
-            family: `Cardo`,
-            variants: [`400`, `500`]
+            family: `Poppins`,
+            variants: [`300`, `400`, `700`]
           },
         ],
       },

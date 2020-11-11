@@ -38,14 +38,14 @@ export const PostItemWrapper = styled.section`
 `
 
 export const PostItemTag = styled.div`
-  font-family: 'Cardo', serif;
+  font-family: 'Poppins', serif;
   align-items: center;
   background: ${props =>
     props.background ? props.background : "var(--highlight)"};
   border-radius: 50%;
   color: var(--black);
   display: flex;
-  font-size: 32px;
+  font-size: 38px;
   font-weight: 700;
   justify-content: center;
   min-height: 120px;
@@ -100,7 +100,7 @@ export const TimerIcon = styled(WatchLater)`
 `
 
 export const PostItemTitle = styled.h1`
-  font-family: 'Cardo', serif;
+  font-family: 'Poppins', serif;
   font-size: 32px;
   font-weight: 700;
   margin: 0.2rem 0 0.5rem;
