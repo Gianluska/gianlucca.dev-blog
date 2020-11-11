@@ -100,7 +100,6 @@ export const TimerIcon = styled(WatchLater)`
 `
 
 export const PostItemTitle = styled.h1`
-  font-family: 'Poppins', serif;
   font-size: 32px;
   font-weight: 700;
   margin: 0.2rem 0 0.5rem;
