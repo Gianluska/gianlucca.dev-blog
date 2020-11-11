@@ -37,7 +37,7 @@ const AboutPage = () => {
 
   return (
     <Layout>
-      <SEO title="about"></SEO>
+      <SEO title="About"></SEO>
       <S.MainContent>
         <S.PostTitle>Sobre mim</S.PostTitle>
         <p dangerouslySetInnerHTML={{ __html: aboutMeText }}></p>
