@@ -1,5 +1,4 @@
 ## 🚀 Gianlucca Claudino - Blog
----
 Blog pessoal.
 
 
