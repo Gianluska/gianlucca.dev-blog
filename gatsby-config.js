@@ -1,6 +1,6 @@
 require("dotenv").config()
 
-const queries = require('./src/utils/algolia_queries')
+const queries = require("./src/utils/algolia_queries")
 
 module.exports = {
   siteMetadata: {
@@ -8,7 +8,7 @@ module.exports = {
     position: `Frontend Developer`,
     description: `Apaixonado por JavaScript e entusiasta do movimento Open Source. Escrevo sobre o que me brilhar os olhos!`,
     author: `Gianlucca Portela Claudino`,
-    siteUrl: `https://gianluccaclaudino.netlify.app`
+    siteUrl: `https://gianluccaclaudino.netlify.app`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
@@ -30,18 +30,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          {
-            family: `Roboto`,
-            variants: [`400`]
-          },
-          {
-            family: `Poppins`,
-            variants: [`300`, `400`, `700`]
-          },
-        ],
+        fonts: [`Roboto\:400`, `Poppins\:300,400,700`],
       },
     },
     {
