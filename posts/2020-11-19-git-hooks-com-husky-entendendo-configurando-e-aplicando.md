@@ -3,7 +3,7 @@ title: "Git Hooks com Husky: entendendo, configurando e aplicando."
 description: Neste post abordarei as funcionalidades do Husky, um biblioteca de
   Git Hooks que sou fã de carteirinha.
 date: 2020-11-18 11:43:27
-thumbnail: assets/img/githusky.png
+thumbnail: /assets/img/githusky.png
 category: dev
 background: "#637a91"
 ---
