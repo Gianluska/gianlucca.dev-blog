@@ -47,11 +47,11 @@ Após instalado, podemos ir até o arquivo `package.json` onde esta localizado a
 $ git commit -m 'Keep calm and commit'
 ```
 
-O que nós criamos foram duas configurações que rodam o script `npm test` toda vez que executarmos um commit ou push, só liberando o comando caso o script execute sem nenhum erro. Portanto não tem mais desculpas para subir código quebrado, né? Hehe.
+O que nós criamos foram duas configurações que rodam o script `npm test` toda vez que executarmos um commit ou push, só liberando o comando caso o script execute sem nenhum erro. Então não tem mais mais desculpas para subir código quebrado, né? Hehe.
 
 # Conclusão
 
-Então é isto por hoje meus caros, post bem rápido e simples. Espero que tenham curtido o conteúdo, até porque eu depois que descobri essa ferramenta nunca mais parei de usar, haha. Fala sério, que coisa útil! \
+Então é isto por hoje meus caros, post bem rápido e simples. Espero que tenham curtido o conteúdo, até porque depois que eu descobri essa ferramenta nunca mais parei de usar, haha. Fala sério, que coisa útil! \
 \
 Lembrando: fique a vontade para usar a área de comentários! 
 
