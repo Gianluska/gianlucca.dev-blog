@@ -2,7 +2,7 @@
 title: Clonar um site NÃO te torna um Desenvolvedor Front-end!
 description: Assunto delicado que deve ser abordado, não se iluda!
 date: 2021-03-26 04:05:09
-thumbnail: assets/img/1_ulvueldpb1n-rqufeo3yoa.png
+thumbnail: /assets/img/1_ulvueldpb1n-rqufeo3yoa.png
 category: misc
 background: "#7AAB13"
 ---
@@ -18,7 +18,7 @@ Ficou curioso? Bora lá então!
 
 # A base permanece indiferente à área de atuação.
 
-![Uma ilustração mostrando um teclado e diversas linguagens de programação](assets/img/program-coding.jpg)
+![Uma ilustração mostrando um teclado e diversas linguagens de programação](/assets/img/program-coding.jpg)
 
 Antes de ser um Desenvolvedor Front-end, você precisa, obviamente, ser um Desenvolvedor.
 
@@ -41,7 +41,7 @@ No meu ponto de vista, um Desenvolvedor é formado por quatro pilares essenciais
 
 # Desenvolvedor OK, mas e o Front-end?
 
-![Uma foto com diversos aparelhos conectados num mesmo site, representando a responsividade e design.](assets/img/2017-04-26_importancia-front-end.jpg)
+![Uma foto com diversos aparelhos conectados num mesmo site, representando a responsividade e design.](/assets/img/2017-04-26_importancia-front-end.jpg)
 
 Na minha visão, um Desenvolvedor Front-end precisa ter um bracinho na área de Design, pois é no Front que a parte de UX/UI se encontra com a parte de Desenvolvimento. Então além de manjar HTML, CSS e JavaScript, eu considero importantíssimo saber de UX/UI.
 
@@ -53,7 +53,7 @@ E esse é o motivo pelo qual eu não acredito que existam muitos Full-stacks por
 
 # Muito difícil, não é para mim!
 
-![Imagem representando um "mind-blow".](assets/img/mind_blown_shutterstock_photoschmidt.jpg)
+![Imagem representando um "mind-blow".](/assets/img/mind_blown_shutterstock_photoschmidt.jpg)
 
 Errado! A única coisa que programação exige é curiosidade e empenho. Se você é sempre curioso quanto a assuntos de tecnologia, você está na área certa!
 
@@ -61,7 +61,7 @@ Se o título deste post for o seu caso, não se sinta desmotivado, não é esse 
 
 # Angular ou React?
 
-![Angular or React?](assets/img/rangleio-blog-migrating-angular-2-to-react.gif)
+![Angular or React?](/assets/img/rangleio-blog-migrating-angular-2-to-react.gif)
 
 Se o resto do post ainda não respondeu esta pergunta, aqui vai: **JavaScript.**
 
