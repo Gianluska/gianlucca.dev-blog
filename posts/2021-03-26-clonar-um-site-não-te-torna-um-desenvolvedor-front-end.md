@@ -18,7 +18,7 @@ Ficou curioso? Bora lá então!
 
 # A base permanece indiferente à área de atuação.
 
-Antes de ser um Desenvolvedor Front-end, você precisa, obviamente,  ser um Desenvolvedor.
+Antes de ser um Desenvolvedor Front-end, você precisa, obviamente, ser um Desenvolvedor.
 
 > Mas o que é ser um Desenvolvedor?
 
@@ -45,7 +45,7 @@ Obvio que você não precisa ser um profissional de UX/UI, apenas saber onde iss
 
 Outros pontos que eu considero importantes são assuntos como SEO, performance, escalabilidade de projeto e por ai vai.
 
-E esse é o motivo que eu não acredito que existam muitos Full-stacks por aí, a maioria são "Back-ends com Bootstrap" , mas esse é assunto para outro post xD.
+E esse é o motivo pelo qual eu não acredito que existam muitos Full-stacks por aí, a maioria são "Back-ends com Bootstrap" ou "Front-ends com Strapi", mas esse é assunto para outro post xD.
 
 # Muito difícil, não é para mim!
 
@@ -59,14 +59,14 @@ Se o resto do post ainda não respondeu esta pergunta, aqui vai: **JavaScript.**
 
 Aprenda JavaScript, vá além do DOM e Events. Vire um **JavaScript Developer**. Depois disso, Frameworks serão fáceis de se aprender. 
 
-Mas se você já se encontra nesta posição e quer decidir pra qual ir, eu recomendaria **React**, que atualmente tem mais mercado e a curva de aprendizado é bem baixa.
+Mas se você já se encontra nesta posição e quer decidir pra qual ir, eu recomendaria **React**, que atualmente tem mais mercado e a curva de aprendizado é mais baixa.
 
-Só se lembre que uma decisão na sua vida deve ser sua. Nunca deixe que o Joãozinho ou o Gianzinho decida algo por você. Afinal o tempo gasto estudando tecnologia X ou Y será inteiramente seu e nunca mais voltará. (Recomendo [este vídeo](https://www.youtube.com/watch?v=D3L8IOncLkg&ab_channel=FabioAkita) do [Fábio Akita](https://www.youtube.com/channel/UCib793mnUOhWymCh2VJKplQ) sobre terceirizar decisões).
+Só se lembre que uma decisão na sua vida deve ser sua. Nunca deixe que o Joãozinho ou o Gianzinho decida algo por você. O tempo gasto estudando tecnologia X ou Y será inteiramente seu e nunca mais voltará. (Recomendo [este vídeo](https://www.youtube.com/watch?v=D3L8IOncLkg&ab_channel=FabioAkita) do [Fábio Akita](https://www.youtube.com/channel/UCib793mnUOhWymCh2VJKplQ) sobre terceirizar decisões).
 
 # Conclusão
 
-Assunto tenso, né? Mas achei importante compartilhar minha opinião aqui com vocês. Estamos precisando mais do que nunca de profissionais de tecnologia, e para que esta necessidade seja suprida de forma saudável, não se pode pular etapas ou pegar atalhos.
+Assunto tenso, né? Mas achei importante compartilhar minha opinião aqui com vocês. Estamos precisando mais do que nunca de profissionais de tecnologia, e para que essa necessidade seja suprida de forma saudável, não se pode pular etapas ou pegar atalhos.
 
 A busca por profissionais de tecnologia, uma hora ou outra, será desaquecida. Lembre-se disso.
 
-Concorda? Discorda? Faça um comentário abaixo! Eu com certeza vou te responder.
+Concorda? Discorda? Faça um comentário abaixo, eu com certeza vou te responder! Até a proxima!
