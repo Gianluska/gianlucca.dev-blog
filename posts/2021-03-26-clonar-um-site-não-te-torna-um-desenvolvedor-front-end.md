@@ -16,7 +16,7 @@ Estou voltando com tudo com um post mais "delicado". Dentro dele vou responder (
 
 Ficou curioso? Bora lá então!
 
-# A base permanece indiferente à área de atuação.
+# A base é essencial, não importa qual a área de atuação.
 
 ![Uma ilustração mostrando um teclado e diversas linguagens de programação](/assets/img/program-coding.jpg)
 
