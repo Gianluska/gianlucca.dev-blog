@@ -10,7 +10,7 @@ background: "#7AAB13"
 
 Opa, aqui estou novamente! Peço desculpas pelo atraso nos posts, o ano se iniciou cheio de mudanças para mim (profissionais e pessoais). 
 
-Estou voltando com tudo com um post mais "delicado". Dentro dele vou responder (Sem aquela resposta padrão que todos dão) uma das principais perguntas que recebi nas mensagens diretas do [meu LinkedIn](https://www.linkedin.com/in/gianlucca-claudino/) após a abertura deste blog:
+Estou voltando com tudo com um post mais "delicado". Dentro dele vou responder (sem aquela resposta padrão que todos dão) uma das principais perguntas que recebi nas mensagens diretas do [meu LinkedIn](https://www.linkedin.com/in/gianlucca-claudino/) após a abertura deste blog:
 
 > Gian, qual framework devo aprender? Angular? React?
 
@@ -39,11 +39,13 @@ No meu ponto de vista, um Desenvolvedor é formado por quatro pilares essenciais
 
 # Desenvolvedor OK, mas e o Front-end?
 
-Na minha visão, um Desenvolvedor Front-end precisa ter um bracinho na área de Design, pois é no Front que a parte de UX/UI se encontra com a parte de Desenvolvimento. Então além de manjar HTML, CSS e JavaScript, eu considero importantíssimo saber de UX/UI. Obvio que você não precisa ser um profissional de UX/UI, apenas saber onde isso se conecta com a sua área de atuação.
+Na minha visão, um Desenvolvedor Front-end precisa ter um bracinho na área de Design, pois é no Front que a parte de UX/UI se encontra com a parte de Desenvolvimento. Então além de manjar HTML, CSS e JavaScript, eu considero importantíssimo saber de UX/UI.
+
+Obvio que você não precisa ser um profissional de UX/UI, apenas saber onde isso se conecta com a sua área de atuação.
 
 Outros pontos que eu considero importantes são assuntos como SEO, performance, escalabilidade de projeto e por ai vai.
 
-E esse é o motivo que eu não acredito que existam muitos Full-stacks por aí, a maioria são "Back-ends com Bootstrap", mas esse é assunto para outro post xD.
+E esse é o motivo que eu não acredito que existam muitos Full-stacks por aí, a maioria são "Back-ends com Bootstrap" , mas esse é assunto para outro post xD.
 
 # Muito difícil, não é para mim!
 
