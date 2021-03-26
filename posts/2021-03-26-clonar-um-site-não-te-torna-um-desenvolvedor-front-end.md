@@ -18,6 +18,8 @@ Ficou curioso? Bora lá então!
 
 # A base permanece indiferente à área de atuação.
 
+![Uma ilustração mostrando um teclado e diversas linguagens de programação](assets/img/program-coding.jpg)
+
 Antes de ser um Desenvolvedor Front-end, você precisa, obviamente, ser um Desenvolvedor.
 
 > Mas o que é ser um Desenvolvedor?
@@ -39,6 +41,8 @@ No meu ponto de vista, um Desenvolvedor é formado por quatro pilares essenciais
 
 # Desenvolvedor OK, mas e o Front-end?
 
+![Uma foto com diversos aparelhos conectados num mesmo site, representando a responsividade e design.](assets/img/2017-04-26_importancia-front-end.jpg)
+
 Na minha visão, um Desenvolvedor Front-end precisa ter um bracinho na área de Design, pois é no Front que a parte de UX/UI se encontra com a parte de Desenvolvimento. Então além de manjar HTML, CSS e JavaScript, eu considero importantíssimo saber de UX/UI.
 
 Obvio que você não precisa ser um profissional de UX/UI, apenas saber onde isso se conecta com a sua área de atuação.
@@ -49,11 +53,15 @@ E esse é o motivo pelo qual eu não acredito que existam muitos Full-stacks por
 
 # Muito difícil, não é para mim!
 
+![Imagem representando um "mind-blow".](assets/img/mind_blown_shutterstock_photoschmidt.jpg)
+
 Errado! A única coisa que programação exige é curiosidade e empenho. Se você é sempre curioso quanto a assuntos de tecnologia, você está na área certa!
 
 Se o título deste post for o seu caso, não se sinta desmotivado, não é esse meu intuito. Este post é uma provocação para você ir **além**, sair da zona de conforto e alcançar patamares incríveis na programação.
 
 # Angular ou React?
+
+![Angular or React?](assets/img/rangleio-blog-migrating-angular-2-to-react.gif)
 
 Se o resto do post ainda não respondeu esta pergunta, aqui vai: **JavaScript.**
 
