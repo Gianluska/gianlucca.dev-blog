@@ -8,7 +8,9 @@ background: "#7AAB13"
 ---
 # Introdução
 
-Opa, aqui estou novamente! Peço desculpas pelo atraso nos posts, o ano se iniciou cheio de mudanças para mim (profissionais e pessoais). Estou voltando com tudo com um post mais "delicado". Dentro dele vou responder (Sem aquela resposta padrão que todos dão) uma das principais perguntas que recebi nas mensagens diretas do meu LinkedIn após a abertura deste blog:
+Opa, aqui estou novamente! Peço desculpas pelo atraso nos posts, o ano se iniciou cheio de mudanças para mim (profissionais e pessoais). 
+
+Estou voltando com tudo com um post mais "delicado". Dentro dele vou responder (Sem aquela resposta padrão que todos dão) uma das principais perguntas que recebi nas mensagens diretas do [meu LinkedIn](https://www.linkedin.com/in/gianlucca-claudino/) após a abertura deste blog:
 
 > Gian, qual framework devo aprender? Angular? React?
 
