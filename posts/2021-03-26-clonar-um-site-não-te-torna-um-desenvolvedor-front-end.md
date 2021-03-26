@@ -26,7 +26,7 @@ No meu ponto de vista, um Desenvolvedor é formado por quatro pilares essenciais
 
 * **Programação**
 
-  É aqui quese encontra a linguagem de programação, afinal sem conhecimento em uma linguagem você não desenvolve nada!
+  É aqui que se encontra a linguagem de programação, afinal sem conhecimento em uma linguagem você não desenvolve nada!
 * **Arquitetura e estrutura de dados**
 
   Um Desenvolvedor precisa saber como manipular dados na sua aplicação, este conceito é tão importante quanto o conhecimento da própria linguagem usada.
