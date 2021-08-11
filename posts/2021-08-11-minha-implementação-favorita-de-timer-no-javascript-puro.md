@@ -27,7 +27,7 @@ Após isso, já no editor de código (VSCode), vamos criar nossos primeiros arqu
 * style.css
 * App.js
 
-![Primeiros arquivos](assets/img/firsts-files.png "firsts files")
+![Primeiros arquivos](/assets/img/firsts-files.png "firsts files")
 
 Como você pode perceber, criei uma pasta chamada `src/` onde colocarei todos os nossos arquivos `.js`
 
