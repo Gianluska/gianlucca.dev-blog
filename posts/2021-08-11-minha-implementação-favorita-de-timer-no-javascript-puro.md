@@ -270,6 +270,8 @@ E dando uma olhada no nosso console do navegador, devemos ver isso:
 
 ![timer](/assets/img/timer.png "timer")
 
+Perceba que para a tratativa de valores negativos, eu implementei uma validação e apliquei a função nativa [`clearInterval()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval), passando como parâmetro o nosso `Timer.interval.` Desta forma, quando o valor alcançar 0, nós finalizamos o `setInterval()`.
+
 Olha que sensacional, já tempos um Countdown Timer funcionando!
 
 Claro que ainda não está formatado e nem renderizando na tela, mas já é um grande passo!
