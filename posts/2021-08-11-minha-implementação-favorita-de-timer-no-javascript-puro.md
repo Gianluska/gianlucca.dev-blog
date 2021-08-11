@@ -322,7 +322,7 @@ A primeira função (`timeToMinutes`) faz um calculo para transformarmos o valor
 A segunda função (`timeToSeconds`) é responsável pela formatação do nosso valor em segundos, e ela faz isso utilizando o resto da divisão do `time` por `60`, assim obtemos sempre o resto já formatado para segundos! Animal, né não!?
 
 A última formatação (`formatTime`) cria uma pequena regra para que números menores que 10, tenham um "0" adicionado em seu início. Esta regra já é bem conhecida mas a forma que implementamos aqui é de cair o queixo! \
-Para isso eu utilizei a função [`padStart()`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/padStart) que basicamente recebe um parâmetro e valida se a string possui menos caracteres que este valor, caso sim, a string recebera no seu início uma outra string, ocupando-a até atingir o length especificado.
+Para isso eu utilizei a função [`padStart()`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/padStart) que basicamente recebe um parâmetro e valida se a string possui menos caracteres que este valor, caso sim, a string receberá no seu início uma outra string, ocupando-a até atingir o length especificado.
 
 Show de bola, todos os nossos valores agora estão formatados!
 
@@ -396,7 +396,7 @@ const View = {
 export { View };
 ```
 
-Perfeito! Agora precisamos apenas referenciar essa renderização no nosso `Timer.js`. Para isso vou criar uma nova função chamada `updateView()`, que será responsável por essa funcionalidade.
+Perfeito! Agora precisamos apenas referenciar essa renderização no nosso `Timer.js`. Para isso vou criar uma nova função chamada `updateView()`, que será responsável por essa funcionalidade. Além de referencia-la em nosso `countdown()`.
 
 **`Timer.js`:**
 
