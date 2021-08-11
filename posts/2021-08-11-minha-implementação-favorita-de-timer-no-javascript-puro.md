@@ -276,7 +276,7 @@ Claro que ainda não está formatado e nem renderizando na tela, mas já é um g
 
 E falando em formatação, bora implementar isso?
 
-A primeira coisa que eu vou fazer será criar as nossas funções para obter os **Minutos** e **Segundos** a partir destes milissegundos que nós ja temos, e para isso vamos criar duas funções:
+A primeira coisa que eu vou fazer será criar as nossas funções para obter os **Minutos** e **Segundos** a partir destes milissegundos que nós já temos, e para isso vamos criar duas funções:
 
 ```javascript
 const Timer = {
