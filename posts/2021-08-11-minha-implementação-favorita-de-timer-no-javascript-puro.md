@@ -3,7 +3,7 @@ title: Minha implementação favorita de Timer!
 description: Na minha opinião uma das melhores implementações de Timer
   utilizando JavaScript Vanilla!
 date: 2021-08-11 01:01:12
-thumbnail: /assets/img/countdown-timer.png
+thumbnail: /assets/img/timeraa.png
 category: js
 background: "#D6BA32"
 ---
