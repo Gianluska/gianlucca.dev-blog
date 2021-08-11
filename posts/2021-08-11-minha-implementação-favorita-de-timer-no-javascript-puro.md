@@ -1,5 +1,5 @@
 ---
-title: Minha implementação favorita de Timer no JavaScript puro!
+title: Minha implementação favorita de Timer!
 description: Na minha opinião uma das melhores implementações de Timer
   utilizando JavaScript Vanilla!
 date: 2021-08-11 01:01:12
