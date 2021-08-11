@@ -3,7 +3,7 @@ title: Minha implementação favorita de Timer no JavaScript puro!
 description: Na minha opinião uma das melhores implementações de Timer
   utilizando JavaScript Vanilla!
 date: 2021-08-11 01:01:12
-thumbnail: assets/img/countdown-timer.png
+thumbnail: /assets/img/countdown-timer.png
 category: js
 background: "#D6BA32"
 ---
@@ -31,9 +31,9 @@ Após isso, já no editor de código (VSCode), vamos criar nossos primeiros arqu
 
 Como você pode perceber, criei uma pasta chamada `src/` onde colocarei todos os nossos arquivos `.js`
 
-Meu intuito nesse post não é abordar Html e Css, então vou pular esta parte da implementação e mostrar apenas o código final:
+Meu intuito nesse post não é abordar `HTML` e `CSS`, então vou pular esta parte da implementação e mostrar apenas o código final:
 
-**index.html:**
+**`index.html`:**
 
 ```html
 <!DOCTYPE html>
@@ -54,7 +54,7 @@ Meu intuito nesse post não é abordar Html e Css, então vou pular esta parte d
 </html>
 ```
 
-**style.css:**
+**`style.css`:**
 
 ```css
 * {
@@ -82,7 +82,7 @@ span {
 }
 ```
 
-O que eu fiz foi simplesmente iniciar o nosso `index.html` com sua estrutura padrão, linkando o nosso arquivo css e a nossa fonte direto do Google Fonts, além de adicionar alguns estilos em nosso `style.css.`
+O que eu fiz foi simplesmente iniciar o nosso `index.html` com sua estrutura padrão, linkando o nosso arquivo css e a nossa fonte direto do Google Fonts, além de adicionar alguns estilos em nosso `style.css`.
 
 Tranquilo por enquanto, né?
 
@@ -94,17 +94,17 @@ Parte inicial feita! Bora para os nossos scripts?
 
 Agora começa a brincadeira!
 
-Antes de partimos para o Timer em si, vamos iniciar o nosso App.js.
+Antes de partimos para o Timer em si, vamos iniciar o nosso `App.js`.
 
 O App.js será o nosso [Módulo JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Modules) principal.
 
 > Modulo JavaScript? Que isso? 🤔
 
-Os Módulos em Javascript são uma forma de compartilhar informações entre scripts, onde todo script que realizar a importação (`import`) de um módulo poderá utilizar suas funções ou informações que foram expostas (`export`). Assim evitamos carregar vários arquivos em nosso HTML! Super legal, né?
+Os Módulos em Javascript são uma forma de compartilhar informações entre scripts, onde todo script que realizar a importação (`import`) de um módulo poderá utilizar suas funções ou informações que foram expostas (`export`). Assim evitamos carregar vários arquivos em nosso `HTML`! Super legal, né?
 
 Bora ver na prática então:
 
-**App.js:**
+**`App.js`:**
 
 ```javascript
 const App = {
@@ -116,7 +116,7 @@ export { App };
 
 E vamos importar este módulo no nosso HTML.
 
-**index.html:**
+**`index.html`:**
 
 ```html
 <!DOCTYPE html>
@@ -139,11 +139,13 @@ Perceba que: para que possamos utilizar os Módulos JavaScript, é preciso adici
 
 A sintaxe é bem tranquila!
 
-A `Linha 9` é responsável pela importação do nosso arquivo e a `Linha 11` é responsável pela inicialização do nosso módulo.
+A instrução `import { App } from './src/App.js';` é responsável pela importação do arquivo.
 
-Mas essa importação só é possível porque eu exportei o nosso módulo `App.js (Linha 5 no arquivo App.js)`.
+Já a chamada `App.init();` é responsável pela inicialização do nosso `App.js`, onde eu defini o método `init()`.
 
-Show! Bora seguir!
+Mas essa importação só é possível porque eu exportei o nosso módulo `App.js` com a instrução `export { App };`.
+
+Molezinha, né? Bora seguir!
 
 # Implementando o Timer
 
