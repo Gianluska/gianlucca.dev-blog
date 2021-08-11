@@ -135,7 +135,7 @@ E vamos importar este módulo no nosso HTML.
 </html>
 ```
 
-Perceba que: para que possamos utilizar os Módulos JavaScript, é preciso adicionar o atributo `type="module"` na tag `<script>` para que o HTML entenda que se trata de um Módulo JavaScript.
+Perceba que: para que possamos utilizar os Módulos JavaScript, é preciso adicionar o atributo `type="module"` na tag `<script>`, assim o HTML entende que se trata de um Módulo JavaScript.
 
 A sintaxe é bem tranquila!
 
@@ -150,3 +150,33 @@ Molezinha, né? Bora seguir!
 # Implementando o Timer
 
 Agora que o conceito de módulos já foi entendido, vamos seguir para a implementação do nosso Timer.
+
+Vamos criar nosso arquivo `Timer.js` e importa-lo no nosso `App.js`.
+
+`Timer.js`**:**
+
+```javascript
+const Timer = {
+  const init() {}
+}
+
+export { Timer };
+```
+
+**`App.js`:**
+
+```javascript
+import { Timer } from './Timer.js';
+
+const App = {
+  init() {
+    Timer.init();
+  }
+}
+
+export { App };
+```
+
+Arquivo importado e iniciado, vamos colocar alguma lógica em ação agora.
+
+Quando falamos em Timers em JS, geralmente falamos na função nativa [`setInterval()`](https://developer.mozilla.org/pt-BR/docs/Web/API/WindowOrWorkerGlobalScope/setInterval) Com ele nós podemos executar uma **determinada função**, sempre repetindo em um **determinado intervalo**.
