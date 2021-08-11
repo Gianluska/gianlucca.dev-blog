@@ -100,7 +100,7 @@ O App.js será o nosso [Módulo JavaScript](https://developer.mozilla.org/pt-BR/
 
 > Modulo JavaScript? Que isso? 🤔
 
-Os Módulos em Javascript são uma forma de compartilhar informações entre scripts, onde todo script que realizar a importação (`import`) de um módulo poderá utilizar suas funções ou informações que foram expostas (`export`). Assim evitamos carregar vários arquivos em nosso `HTML`! Super legal, né?
+Os Módulos em JavaScript são uma forma de compartilhar informações entre scripts, onde todo script que realizar a importação (`import`) de um módulo poderá utilizar suas funções ou informações que foram expostas (`export`). Assim evitamos carregar vários arquivos em nosso `HTML`! Super legal, né?
 
 Bora ver na prática então:
 
@@ -114,7 +114,7 @@ const App = {
 export { App };
 ```
 
-E vamos importar este módulo no nosso HTML.
+E vamos importar este módulo no nosso `HTML`.
 
 **`index.html`:**
 
@@ -135,7 +135,7 @@ E vamos importar este módulo no nosso HTML.
 </html>
 ```
 
-Perceba que: para que possamos utilizar os Módulos JavaScript, é preciso adicionar o atributo `type="module"` na tag `<script>`, assim o HTML entende que se trata de um Módulo JavaScript.
+Perceba que: para que possamos utilizar os Módulos JavaScript, é preciso adicionar o atributo `type="module"` na tag `<script>`, assim o `HTML` entende que se trata de um `Módulo JavaScript`.
 
 A sintaxe é bem tranquila!
 
