@@ -19,7 +19,7 @@ Bora lá?
 
 Para iniciar o nosso projeto, vamos primeiro criar uma pasta no seu diretório de preferência:
 
-![Pasta criada e vazia](assets/img/screenshot_1.png "folder")
+![Pasta criada e vazia](/assets/img/screenshot_1.png "folder")
 
 Após isso, já no editor de código (VSCode), vamos criar nossos primeiros arquivos:
 
@@ -80,7 +80,6 @@ body {
 span {
   font-size: 300%;
 }
-
 ```
 
 O que eu fiz foi simplesmente iniciar o nosso `index.html` com sua estrutura padrão, linkando o nosso arquivo css e a nossa fonte direto do Google Fonts, além de adicionar alguns estilos em nosso `style.css.`
