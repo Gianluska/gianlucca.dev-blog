@@ -379,3 +379,119 @@ const Timer = {
 export { Timer };
 
 ```
+
+Show!
+
+Agora vamos renderizar diamicamente os minutos e segundos dentro do nosso `HTML`.
+
+**`View.js`:**
+
+```javascript
+const View = {
+  render({minutes, seconds}) {
+    document.body.innerHTML = `
+    <p>Simple Timer</p>
+    <span>${minutes}:${seconds}</span>
+    `;
+  }
+}
+
+export { View };
+```
+
+Perfeito! Agora precisamos apenas referenciar essa renderização no nosso `Timer.js`. Para isso vou criar uma nova função chamada `updateView()`, que será responsável por essa funcionalidade.
+
+**`Timer.js`:**
+
+```javascript
+import { View } from "./View.js";
+
+const Timer = {
+  time: 25 * 60,
+  currentTime: 0,
+  interval: null,
+
+  timeToMinutes: (time) => Math.floor(time / 60),
+  timeToSeconds: (time) => time % 60,
+
+  formatTime: (time) => String(time).padStart(2, "0"),
+
+  init() {
+    Timer.currentTime = Timer.time;
+    Timer.interval = setInterval(Timer.countdown, 1000);
+  },
+
+  countdown() {
+    Timer.currentTime--;
+
+    Timer.updateView();
+
+    if (Timer.currentTime === 0) {
+      clearInterval(Timer.interval);
+      return;
+    }
+  },
+
+  updateView() {},
+};
+
+export { Timer };
+
+```
+
+E para finalizar com chave de ouro, vamos apenas passar os nosso valores formatados (utilizando nossas funções de formatação) para a `View.js`.
+
+**`Timer.js`:**
+
+```javascript
+import { View } from "./View.js";
+
+const Timer = {
+  time: 25 * 60,
+  currentTime: 0,
+  interval: null,
+
+  timeToMinutes: (time) => Math.floor(time / 60),
+  timeToSeconds: (time) => time % 60,
+
+  formatTime: (time) => String(time).padStart(2, "0"),
+
+  init() {
+    Timer.currentTime = Timer.time;
+    Timer.interval = setInterval(Timer.countdown, 1000);
+  },
+
+  countdown() {
+    Timer.currentTime--;
+
+    Timer.updateView();
+
+    if (Timer.currentTime === 0) {
+      clearInterval(Timer.interval);
+      return;
+    }
+  },
+
+  updateView() {
+    const minutes = Timer.formatTime(Timer.timeToMinutes(Timer.currentTime));
+    const seconds = Timer.formatTime(Timer.timeToSeconds(Timer.currentTime));
+
+    View.render({ minutes, seconds });
+  },
+};
+
+export { Timer };
+
+```
+
+E quando nós abrimos o navegador, saca só o resultado:
+
+![timer funcionando](/assets/img/timeraa.png "timer working")
+
+# Conclusão
+
+Resultado incrível, né? Eu diria que a função `padStart()` para a formatação de números foi a cereja do bolo!
+
+Por hoje é só, espero que os assuntos abordados sejam uteis para você! Nos vemos no próximos post. 
+
+Até!
