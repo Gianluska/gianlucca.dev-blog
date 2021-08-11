@@ -94,7 +94,7 @@ Parte inicial feita! Bora para os nossos scripts?
 
 Agora começa a brincadeira!
 
-Antes de partimos para o Timer em si, vamos iniciar o nosso `App.js`.
+Antes de partimos para o `Timer` em si, vamos iniciar o nosso `App.js`.
 
 O App.js será o nosso [Módulo JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Modules) principal.
 
@@ -151,7 +151,7 @@ Molezinha, né? Bora seguir!
 
 Agora que o conceito de módulos já foi entendido, vamos seguir para a implementação do nosso Timer.
 
-Vamos criar nosso arquivo `Timer.js` e importa-lo no nosso `App.js`.
+Vamos criar nosso arquivo `Timer.js` e importá-lo no nosso `App.js`.
 
 `Timer.js`**:**
 
@@ -185,7 +185,7 @@ E estas duas opções são exatamente os parâmetros que o `setInterval()` receb
 
 Para implementá-lo, vou primeiro criar um novo método no meu `Timer.js` para cuidar desta parte da aplicação e em seguida referencia-lo como a função que o `setInterval()` precisa. Além disso, vamos passar `1000` como o segundo parâmetro, pois a função espera receber um valor em milissegundos, que no nosso caso será um intervalo de **1 segundo**.
 
-E como mágica nós conseguimos abstrair a lógica do `init()` e deixa-la apenas no `countdown()`:
+E como mágica nós conseguimos abstrair a lógica do `init()` e deixá-la apenas no `countdown()`:
 
 ```javascript
 const Timer = {
@@ -197,22 +197,21 @@ const Timer = {
 };
 
 export { Timer };
-
 ```
 
 Para seguimos com a lógica do countdown(), precisamos antes definir algumas variáveis que serão uteis nesse método.
 
 Vamos definir então:
 
-* time: number * 60
+* `time: number * 60`
 
   Esta variável será responsável pelo tempo fixo do nosso Timer (Exemplo: 25 minutos). Este valor fixo será multiplicado por 60 pois queremos ele em segundos.
-* currentTime: 0
+* `currentTime: 0`
 
   Esta é a variável que será atualizada a cada ciclo do nosso `setInterval()`, sendo usada de referência para o próximo ciclo. Ele sempre iniciará com o valor de `time`, pois nosso contador é no formato decrescente.
-* interval: null
+* `interval: null`
 
-  Esta variável vai armazenar o `setInterval()` em si, para que possamos finaliza-lo assim que o tempo do contador zerar, evitando tempos negativos no nosso Timer.
+  Esta variável vai armazenar o `setInterval()` em si, para que possamos finalizá-lo assim que o tempo do contador zerar, evitando tempos negativos no nosso Timer.
 
 E a implementação ficou assim:
 
@@ -233,7 +232,6 @@ const Timer = {
 };
 
 export { Timer };
-
 ```
 
 Com as variáveis definidas, nós podemos partir para a lógica do `countdown(),` subtraindo o valor de `Timer.currentTime` e implementando a tratativa para evitar valores negativos.
@@ -330,7 +328,7 @@ Show de bola, todos os nossos valores agora estão formatados!
 
 # Renderizando o timer em nossa view
 
-Por se tratar de outra funcionalidade, vamos criar um novo arquivo (`View.js`) e referencia-lo no nosso `Timer.js`.
+Por se tratar de outra funcionalidade, vamos criar um novo arquivo (`View.js`) e referenciá-lo no nosso `Timer.js`.
 
 **`View.js`:**
 
@@ -377,12 +375,11 @@ const Timer = {
 };
 
 export { Timer };
-
 ```
 
 Show!
 
-Agora vamos renderizar diamicamente os minutos e segundos dentro do nosso `HTML`.
+Agora vamos renderizar dinamicamente os minutos e segundos dentro do nosso `HTML`.
 
 **`View.js`:**
 
@@ -436,7 +433,6 @@ const Timer = {
 };
 
 export { Timer };
-
 ```
 
 E para finalizar com chave de ouro, vamos apenas passar os nosso valores formatados (utilizando nossas funções de formatação) para a `View.js`.
@@ -481,7 +477,6 @@ const Timer = {
 };
 
 export { Timer };
-
 ```
 
 E quando nós abrimos o navegador, saca só o resultado:
@@ -492,6 +487,6 @@ E quando nós abrimos o navegador, saca só o resultado:
 
 Resultado incrível, né? Eu diria que a função `padStart()` para a formatação de números foi a cereja do bolo!
 
-Por hoje é só, espero que os assuntos abordados sejam uteis para você! Nos vemos no próximos post. 
+Por hoje é só, espero que os assuntos abordados sejam úteis para você! Nos vemos no próximos post. 
 
 Até!
